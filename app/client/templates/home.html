@@ -1,0 +1,10 @@
+<template name="home">
+	<div class="container">
+		{{#each quizzes}}
+			<div class="well">
+				<h2>{{title}}</h2>
+				<h3 class="muted">{{author}}</h3>
+			</div>
+		{{/each}}
+	</div>
+</template>
